@@ -61,7 +61,7 @@ body {
 	src: url('./fonts/CourierFoldEllipse.ttf');
 }
 .foldafter .content:after {
-	font-family: CourierFoldEllipse, Source Code Pro, Courier;
+	font-family: CourierFoldEllipse;
 	font-style:normal;
 	font-weight:normal;
 	content:" …";
@@ -87,8 +87,8 @@ body {
 	src: url('./fonts/CourierBulletNotDone.ttf');
 }
 .unordered.todoMode .lead {
-	font-family:CourierBulletNotDone, Source Code Pro, Courier;
+	font-family:CourierBulletNotDone;
 }
 div[done].unordered.todoMode .lead {
-	font-family:CourierBulletDone, Source Code Pro, Courier;
+	font-family:CourierBulletDone;
 }
